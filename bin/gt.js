@@ -77,7 +77,7 @@ const { argv } = yargs
 	})
 
 	.example('$0')
-	.example('$0 --ip 127.0.0.1 --port 8000')
+	.example('$0 --ip 127.0.0.1 --port 8680')
 	.example('$0 --dns-server https://doh.securedns.eu/dns-query')
 	.epilog('ISSUES:  https://github.com/SadeghHayeri/GreenTunnel/issues\n' +
 		'DONATE:  https://github.com/SadeghHayeri/GreenTunnel#donation');
