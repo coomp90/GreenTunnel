@@ -42,7 +42,7 @@ jobs:
 
       - name: Run a container of created image.
         run: |
-          DOCKERCONTAINER=$(docker run -p 127.0.0.1:${CLIENT_PORT}:8000 -d sadeghhayeri/greentunnel:${GITHUB_RUN_ID})
+          DOCKERCONTAINER=$(docker run -p 127.0.0.1:${CLIENT_PORT}:8680 -d sadeghhayeri/greentunnel:${GITHUB_RUN_ID})
           sleep 5
           echo "DOCKERCONTAINER=$DOCKERCONTAINER" >> $GITHUB_ENV
 
